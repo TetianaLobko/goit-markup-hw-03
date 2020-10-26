@@ -1,3 +1,7 @@
+.header-underlined {
+    border-bottom: 1px solid var(--cl-frame-header);
+}
+
 .filters {
     display: flex;
     justify-content: center;
@@ -44,6 +48,7 @@
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc(100% / 3 - 30px);
+   border: 1px solid var(--cl-frame-portfolio);
 }
 
 .works-title {
